@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'PSANS': ['Public Sans', 'sans-serif']
+        'PSANS': ['Public Sans', 'sans-serif'],
+        'PJakarta': ['Plus Jakarta Sans', 'sans-serif'],
       },
       boxShadow: {
         'my-shadow': '0px 35px 80px rgba(13, 13, 13, 0.12)'
