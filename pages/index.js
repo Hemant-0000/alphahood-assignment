@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import Content from '../components/Content'
 import Header from '../components/Header'
+import Posts from '../components/Posts'
 export default function Home() {
   return (
     <div>
@@ -10,6 +12,8 @@ export default function Home() {
       </Head>
 
       <Header/>
+      <Posts/>
+      <Content/>
 
     </div>
   )

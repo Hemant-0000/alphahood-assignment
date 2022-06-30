@@ -9,6 +9,9 @@ module.exports = {
       fontFamily:{
         'PSANS': ['Public Sans', 'sans-serif']
       },
+      boxShadow: {
+        'my-shadow': '0px 35px 80px rgba(13, 13, 13, 0.12)'
+      }
     },
   },
   plugins: [],
