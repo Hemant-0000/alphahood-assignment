@@ -98,7 +98,7 @@ function Content() {
             <div className='absolute top-[2900px] left-[112px] w-[1312px] h-[120px] bg-[#5F72BE] rounded-[12px]'>
                 <h3 className='absolute top-[32px] left-[56px] font-PSANS font-[700] text-[18px] leading-[22px] text-white '>Email Us</h3>
                 <p className='absolute top-[66px] left-[56px] font-PSANS font-[400] text-[16px] leading-[19px] text-white '>Connect with us in case of any queries, complaints or feedbacks...</p>
-                <button className='w-[328px] h-[52px] absolute top-[34px] left-[934px] bg-[#2D81F7] pt-[16px] pb-[17px] pl-[105px] pr-[119px] font-PSANS font-[700] text-[16px] leading-[19px] tracking-[0.028em] text-white rounded-[12px]  hover:bg-[#9da7cd] transition ease-in duration-500 '>CONTACT US</button>
+                <button className='w-[328px] h-[52px] absolute top-[34px] left-[934px] bg-[#2D81F7] pt-[16px] pb-[17px] pl-[105px] pr-[119px] font-PSANS font-[700] text-[16px] leading-[19px] tracking-[0.028em] text-[white] rounded-[12px] hover:text-[#5F72BE]  hover:bg-[#fff] transition ease-in duration-500 '>CONTACT US</button>
             </div>
 
         </div>
