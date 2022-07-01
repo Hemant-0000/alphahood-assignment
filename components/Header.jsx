@@ -20,7 +20,7 @@ function Header() {
                 <h2 className='w-[495px] h-[78px] absolute top-[255px] left-[64px] font-PSANS font-[700] text-[32px] text-white leading-[40px] tracking-[0.0188em] box-border ' >Unleash Your SCRUM Skills,  Grab More Attention To Résumé</h2>
 
                 {/* Enroll now button  */}
-                <button className='absolute top-[365px] left-[64px] box-border border-[1.8px] border-solid border-white rounded-[100px] font-PSANS font-[700] text-[14px] leading-[17px] text-white pt-[8px] px-[18px] pb-[7px] ' >ENROLL NOW</button>
+                <button className='absolute top-[365px] left-[64px] box-border border-[1.8px] border-solid border-white rounded-[100px] font-PSANS font-[700] text-[14px] leading-[17px] text-white pt-[8px] px-[18px] pb-[7px] hover:text-[#6866c5] hover:bg-[#ffff] transition ease-in duration-300  ' >ENROLL NOW</button>
 
                 {/* offers  */}
                 <p className='absolute top-[469px] left-[136px] font-PSANS text-[12px] text-center leading-[15px] text-white '>

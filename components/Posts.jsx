@@ -26,7 +26,7 @@ const posts = [
         title: 'Learn SCRUM: The Complete Beginner Course',
         username: 'Samay Jain, Ex-KPMG',
         rating: '4.5'
-    },
+    }
 ]
 
 function Posts() {

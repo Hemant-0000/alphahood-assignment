@@ -11,6 +11,7 @@ import facebook from '../public/assets/facebook.png'
 import whatsapp from '../public/assets/whatsapp.png'
 import youtube from '../public/assets/youtube.png'
 import figma from '../public/assets/figma.png'
+import dribble from '../public/assets/dribble.png'
 
 function Footer() {
     return (
@@ -52,7 +53,7 @@ function Footer() {
                         <input className='bg-[#343538] w-[400px] outline-none absolute top-[16px] left-[59px] text-[12px] text-[#8C8C8C] leading-[16px] font-[400] ' placeholder='Enter your email' type="text" />
                     </div>
 
-                    <button className='w-[94px] h-[36px] absolute top-[169px] left-[1189px] py-[11.5px] px-[29.5px] bg-[#537CE6] rounded-[30px] text-white text-[10px] leading-[13px] text-center '>Submit</button>
+                    <button className='w-[94px] h-[36px] absolute top-[169px] left-[1189px] py-[11.5px] px-[29.5px] bg-[#537CE6] rounded-[30px] text-white text-[10px] leading-[13px] text-center hover:text-[#000] hover:bg-[#b4b1b1] transition ease-in duration-300 font-[700]  '>Submit</button>
 
 
                 </div>
@@ -65,33 +66,33 @@ function Footer() {
             <div>
                 <div className='absolute top-[299px] left-[150px] font-[400] text-[14px] leading-[18px] text-[#8C8C8C] '>
                     <ul className='flex space-x-[69.78px]'>
-                        <li className='cursor-pointer'>About us</li>
-                        <li className='cursor-pointer'>Jobs</li>
-                        <li className='cursor-pointer'>Blog</li>
-                        <li className='cursor-pointer'>Press</li>
-                        <li className='cursor-pointer'>FAQ</li>
-                        <li className='cursor-pointer'>Careers</li>
-                        <li className='cursor-pointer'>Contact</li>
-                        <li className='cursor-pointer'>Privacy policy</li>
-                        <li className='cursor-pointer'>Sitemap</li>
-                        <li className='cursor-pointer'>Terms of Use</li>
+                        <li className='cursor-pointer hover:text-[#fff] transition ease-linear duration-200 '>About us</li>
+                        <li className='cursor-pointer hover:text-[#e9e6e6] transition ease-linear duration-200 '>Jobs</li>
+                        <li className='cursor-pointer hover:text-[#fff] transition ease-linear duration-200 '>Blog</li>
+                        <li className='cursor-pointer hover:text-[#fff] transition ease-linear duration-200 '>Press</li>
+                        <li className='cursor-pointer hover:text-[#fff] transition ease-linear duration-200 '>FAQ</li>
+                        <li className='cursor-pointer hover:text-[#fff] transition ease-linear duration-200 '>Careers</li>
+                        <li className='cursor-pointer hover:text-[#fff] transition ease-linear duration-200 '>Contact</li>
+                        <li className='cursor-pointer hover:text-[#fff] transition ease-linear duration-200 '>Privacy policy</li>
+                        <li className='cursor-pointer hover:text-[#fff] transition ease-linear duration-200 '>Sitemap</li>
+                        <li className='cursor-pointer hover:text-[#fff] transition ease-linear duration-200 '>Terms of Use</li>
                     </ul>
                 </div>
 
                 <div className='absolute top-[349px] left-[150px] flex space-x-[8px] '>
-                    <div className=' w-[48px] h-[48px] bg-[#343538] rounded-[30px] p-[15.67px] '>
+                    <div className=' w-[48px] h-[48px] bg-[#343538] rounded-[30px] p-[15.67px] cursor-pointer '>
                         <Image src={facebook} alt='' />
                     </div>
-                    <div className=' w-[48px] h-[48px] bg-[#343538] rounded-[30px] p-[15.67px] '>
+                    <div className=' w-[48px] h-[48px] bg-[#343538] rounded-[30px] p-[15.67px] cursor-pointer '>
                         <Image src={youtube} alt='' />
                     </div>
-                    <div className=' w-[48px] h-[48px] bg-[#343538] rounded-[30px] p-[15.67px] '>
-                        <Image src={call_icon} alt='' />
+                    <div className=' w-[48px] h-[48px] bg-[#343538] rounded-[30px] p-[15.67px] cursor-pointer '>
+                        <Image src={dribble} alt='' />
                     </div>
-                    <div className=' w-[48px] h-[48px] bg-[#343538] rounded-[30px] p-[15.67px] '>
+                    <div className=' w-[48px] h-[48px] bg-[#343538] rounded-[30px] p-[15.67px] cursor-pointer '>
                         <Image src={figma} alt='' />
                     </div>
-                    <div className=' w-[48px] h-[48px] bg-[#343538] rounded-[30px] p-[15.67px] '>
+                    <div className=' w-[48px] h-[48px] bg-[#343538] rounded-[30px] p-[15.67px] cursor-pointer '>
                         <Image src={whatsapp} alt='' />
                     </div>
                 </div>
