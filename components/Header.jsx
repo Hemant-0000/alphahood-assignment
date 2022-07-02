@@ -6,8 +6,22 @@ import image1 from '../public/assets/image1.png'
 import image2 from '../public/assets/image2.png'
 import image3 from '../public/assets/image3.png'
 import image4 from '../public/assets/image4.png'
+import { useTimer } from 'react-timer-hook';
 
-function Header() {
+function Header({ expiryTimestamp }) {
+
+    const {
+        seconds,
+        minutes,
+        hours,
+        days,
+        isRunning,
+        start,
+        pause,
+        resume,
+        restart,
+      } = useTimer({ expiryTimestamp, onExpire: () => console.warn('onExpire called') });    
+
     return (
         <>
             <div className='w-full h-[704px] bg-gradient-to-r from-[#9527e5] to-[#6668c3] ' >
@@ -33,19 +47,19 @@ function Header() {
 
                 {/* Hours  */}
                 <div className='absolute w-[88px] h-[88px] top-[505px] left-[80px] rounded-[12px] font-PSANS text-white shadow-md bg-[#a03be9] '>
-                    <p className='absolute top-[8px] left-[12px] font-[700] text-[54px] leading-[66px] '>02</p>
+                    <p className='absolute top-[8px] left-[12px] font-[700] text-[54px] leading-[66px] '>{hours}</p>
                     <span className='absolute top-[66px] left-[35px]  text-[14px] leading-[17px] font-[400] '>Hrs.</span>
                 </div>
 
                 {/* Minutes  */}
                 <div className='absolute w-[88px] h-[88px] top-[505px] left-[200px] rounded-[12px] font-PSANS text-white shadow-md bg-[#a03be9] '>
-                    <p className='absolute top-[8px] left-[12px] font-[700] text-[54px] leading-[66px] '>58</p>
+                    <p className='absolute top-[8px] left-[12px] font-[700] text-[54px] leading-[66px] '>{minutes}</p>
                     <span className='absolute top-[66px] left-[35px]  text-[14px] leading-[17px] font-[400] '>Mins.</span>
                 </div>
 
                 {/* Seconds  */}
                 <div className='absolute w-[88px] h-[88px] top-[505px] left-[320px] rounded-[12px] font-PSANS text-white shadow-md bg-[#a03be9] '>
-                    <p className='absolute top-[8px] left-[12px] font-[700] text-[54px] leading-[66px] '>42</p>
+                    <p className='absolute top-[8px] left-[12px] font-[700] text-[54px] leading-[66px] '>{seconds}</p>
                     <span className='absolute top-[66px] left-[35px]  text-[14px] leading-[17px] font-[400] '>Secs.</span>
                 </div>
 

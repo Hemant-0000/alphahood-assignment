@@ -4,6 +4,10 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Posts from '../components/Posts'
 export default function Home() {
+
+  const time = new Date();
+  time.setFullYear(time.getFullYear() + 600); // 10 minutes timer
+
   return (
     <div>
       <Head>
@@ -12,10 +16,11 @@ export default function Home() {
         <link rel="icon" href="/logo.svg" />
       </Head>
 
-      <Header/>
-      <Posts/>
-      <Content/>
-      <Footer/>
+
+      <Header expiryTimestamp={time} />
+      <Posts />
+      <Content />
+      <Footer />
 
     </div>
   )
