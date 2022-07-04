@@ -64,16 +64,16 @@ function Header({ expiryTimestamp }) {
                 </div>
 
                 {/* Images 1  */}
-                <div className='absolute top-[140px] right-[345px] '><Image src={image1} alt=''/></div>
+                <div className='absolute top-[140px] right-[345px] '><Image priority src={image1} alt=''/></div>
 
                 {/* Images 2  */}
-                <div className='absolute top-[245px] right-[462px] '><Image src={image2} alt=''/></div>
+                <div className='absolute top-[245px] right-[462px] '><Image priority src={image2} alt=''/></div>
                 
                 {/* Images 3  */}
-                <div className='absolute top-[448px] right-[492px] '><Image src={image3} alt=''/></div>
+                <div className='absolute top-[448px] right-[492px] '><Image priority src={image3} alt=''/></div>
 
                 {/* Images 4  */}
-                <div className='absolute top-[193px] right-0 '><Image src={image4} alt=''/></div>
+                <div className='absolute top-[193px] right-0 '><Image priority src={image4} alt=''/></div>
 
             </div>
         </>

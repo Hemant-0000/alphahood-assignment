@@ -3,9 +3,10 @@ import Image from 'next/image'
 import favorite from '../public/assets/favorite.png'
 import fullstar from '../public/assets/fullstar.svg'
 
+
 function Post({ img, title, username, rating }) {
   return (
-    <div className='w-[282px] h-[312px] bg-[#ffffff] rounded-[12px] shadow-my-shadow mr-[32px] '>
+    <div className='relative w-[282px] h-[312px] bg-[#fff] rounded-[12px] shadow-my-shadow  mr-[20px] mb-[35px] '>
 
         {/* Post image  */}
         <div className='w-[282px] h-[142px] rounded-tr-[12px] rounded-tl-[12px] '><Image src={img}  alt='' /></div>

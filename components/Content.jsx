@@ -18,9 +18,6 @@ function Content() {
     return (
         <div>
 
-            {/* Right arrow  */}
-            <div className='absolute top-[1050px] right-[73.4px] cursor-pointer '><Image src={right_arrow} alt='' /></div>
-
             {/* Heading  */}
             <h1 className='absolute top-[1598px] left-[118px] w-[302px] h-[78px] font-PSANS font-[700] text-[32px] leading-[39px] tracking-[0.0188em] text-[#9921E8] '>Start learning with us right now!</h1>
 
